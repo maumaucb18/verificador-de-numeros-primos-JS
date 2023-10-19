@@ -1,0 +1,66 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'dosis';
+  
+}
+
+
+body {
+  display: flex;
+  height: 100vh;
+  margin: auto;
+  background:rgb(47, 47, 184);
+  font-size: 20px;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.container {
+  text-align: center;
+}
+
+p{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+  color: rgb(248, 245, 245);
+  font-family: 'poppins';
+  font-weight: bolder;
+  font-size: 20px;
+  color: #f1ecec;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+  
+  
+}
+
+input{
+  font-family: 'poppins';
+  border-radius: 20px;
+  text-align: center;
+  color: rgb(20, 16, 16);
+  font-weight: bold;
+
+}
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+
+}
+button{
+  font-family: 'poppins';
+}
