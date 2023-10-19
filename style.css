@@ -25,18 +25,18 @@ body {
 
 .container {
   text-align: center;
+  font-style: normal;
 }
 
 p{
-  display: flex;
   text-align: center;
   justify-content: center;
   padding: 30px;
   color: rgb(248, 245, 245);
-  font-family: 'poppins';
+  font-family:'dosis';
+  font-style: unset;
   font-weight: bolder;
-  font-size: 20px;
-  color: #f1ecec;
+  font-size: 30px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 
